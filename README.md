@@ -1,2 +1,3 @@
-# GonzalezCeParcial
-PrimerParcial-SEGUNDAPARTE-GonzalezCecilia
+Cecilia Gonzalez
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
