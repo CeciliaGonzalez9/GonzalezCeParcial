@@ -1,0 +1,122 @@
+* {box-sizing: border-box;}
+
+/* BODY */
+body {
+    background-image: url("../img/fondo.png");
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(32, 210, 216);
+}
+
+/* Aspectos generales de la pagina box */
+#contenedor {
+    width: 50%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Elementos MAIN */
+main {
+    padding: 2em;
+    background-color: rgb(20, 83, 112);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header blockquote {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: rgb(20, 83, 112);
+}
+
+h2, h3, h4, h5 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-decoration: none;
+}
+
+/* Elementos MENU DE NAVEGACIÓN */
+nav {
+    text-align: center;
+    background-color: rgb(44, 223, 255);
+}
+
+nav ul {
+    margin: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgb(19, 89, 94);
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.3em 0.3rem;
+    border: 1rem;
+}
+
+nav a:link {
+    color: rgb(32, 210, 216);
+}
+
+nav a:hover {
+    color: rgb(0, 22, 221);
+}
+
+nav a:active {
+    color: rgb(0, 0, 0);
+}
+
+section {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+#aside-principal {
+    flex: 0 0 15rem;
+    background-color: rgb(13, 55, 75);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    order: 2;
+    font-size: 1rem;
+}
+
+/* FOOTER */
+footer {
+    padding: 1rem;
+}
+
+/* Imagenes y videos */
+img {
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+}
