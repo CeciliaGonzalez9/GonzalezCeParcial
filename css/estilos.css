@@ -87,7 +87,7 @@ nav a:active {
     color: rgb(0, 0, 0);
 }
 
-section {
+#section-unico {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
@@ -97,9 +97,19 @@ section {
     flex: 0 0 15rem;
     background-color: rgb(13, 55, 75);
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     order: 2;
+    font-size: 0.8rem;
+}
+
+aside#aside-principal h4 {
     font-size: 1rem;
+    text-align: center;
+}
+
+aside#aside-principal ul#ul-unico {
+    text-align: left;
+    padding-left: 0;
 }
 
 /* FOOTER */
@@ -113,13 +123,6 @@ img {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-}
-
-.video {
-    margin: auto;
-    max-width: 80%;
-    text-align: center;
-}
 }
 
 .video {
