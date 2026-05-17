@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-/*BODY*/
+/* BODY */
 body {
     background-image: url("../img/fondo.png");
     font-family: 'Barlow', sans-serif;
@@ -8,52 +8,51 @@ body {
     color: rgb(32, 210, 216);
 }
 
-/*Aspectos generales de la pagina box*/
+/* Aspectos generales de la pagina box */
 #contenedor {
-	width: 50%;
-	max-width: 960px;
-	margin: 0 auto;
+    width: 50%;
+    max-width: 960px;
+    margin: 0 auto;
     background-color: rgb(255, 255, 255);
 }
-/*Elemenntos MAIN*/
 
-main{
+/* Elementos MAIN */
+main {
     padding: 2em;
     background-color: rgb(20, 83, 112);
 }
-   
 
-h1{
+h1 {
     text-align: center;
-    text-decoration:overline;
+    text-decoration: overline;
     color: black;
     margin: 0;
     padding: 0;
-    
 }
-header blockquote{
+
+header blockquote {
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-h2{
+h2 {
     color: rgb(20, 83, 112);
 }
 
-h2,h3,h4,h5{
+h2, h3, h4, h5 {
     text-align: center;
 }
 
-p{
+p {
     text-align: justify;
     text-decoration: none;
 }
-/*Elementos MENU DE NAVEGACIÓN*/
+
+/* Elementos MENU DE NAVEGACIÓN */
 nav {
     text-align: center;
     background-color: rgb(44, 223, 255);
-      
 }
 
 nav ul {
@@ -61,8 +60,9 @@ nav ul {
     padding: 1rem;
     list-style-type: none;
 }
-nav li{
-    display: inline-block;                  
+
+nav li {
+    display: inline-block;
 }
 
 nav a {
@@ -74,17 +74,19 @@ nav a {
     padding: 0.3em 0.3rem;
     border: 1rem;
 }
-nav a:link{
-    color: rgb(32, 210, 216);
 
+nav a:link {
+    color: rgb(32, 210, 216);
 }
-nav a:hover{
+
+nav a:hover {
     color: rgb(0, 22, 221);
-    
 }
-nav a:active{
+
+nav a:active {
     color: rgb(0, 0, 0);
 }
+
 section {
     display: flex;
     gap: 2rem;
@@ -99,22 +101,22 @@ section {
     order: 2;
     font-size: 1rem;
 }
-/*FOOTER*/
-footer{
-   padding: 1rem;
+
+/* FOOTER */
+footer {
+    padding: 1rem;
 }
 
-/*imagenes y videos*/
+/* Imagenes y videos */
 img {
     display: inline-block;
     width: auto;
     margin-left: auto;
     margin-right: auto;
-   
 }
-.video{
+
+.video {
     margin: auto;
     max-width: 80%;
     text-align: center;
-}
 }
