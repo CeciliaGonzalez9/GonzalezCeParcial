@@ -1,0 +1,101 @@
+* {box-sizing: border-box;}
+
+/*BODY*/
+body {
+    background-image: url("../img/fondo.jpg");
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
+}
+
+/*Aspectos generales de la pagina box*/
+#contenedor {
+	width: 50%;
+	max-width: 960px;
+	margin: 0 auto;
+    background-color: rgb(255, 219, 16);
+}
+/*Elemenntos MAIN*/
+
+main{
+    padding: 2em;
+    background-color: rgb(255, 249, 164);
+}
+   
+
+h1{
+    text-align: center;
+    text-decoration:overline;
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+header blockquote{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2,h3,h4{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-decoration: none;
+}
+/*Elementos MENU DE NAVEGACIÓN*/
+nav {
+    text-align: center;
+    background-color: rgb(255, 183, 49);
+      
+}
+
+nav ul {
+    margin: 1em;
+    padding: 1em;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;                  
+}
+
+nav a {
+    font-size: 1em;
+    font-weight: 300;
+    background-color: rgb(224, 141, 33);
+    text-decoration: none;
+    margin: 1em;
+    padding: 0.3em 0.3em;
+    border: 1em;
+}
+nav a:link{
+    color: rgb(3, 5, 112);
+
+}
+nav a:hover{
+    color: rgb(194, 144, 144);
+    
+}
+nav a:active{
+    color: rgb(0, 0, 0);
+}
+
+/*FOOTER*/
+footer{
+   padding: 1em;
+}
+
+/*imagenes y videos*/
+img {
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.video{
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+}
